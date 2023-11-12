@@ -37,8 +37,8 @@ Born in 1993. Had some practice in HTML at under-graduate years in school. After
 ### Example of code
 ```JS
 function isPrime(num) {
-  for(let i = 2, s = Math.sqrt(num); i <= s; i++) {
-    if(num % i === 0) {
+  for (let i = 2, s = Math.sqrt(num); i <= s; i++) {
+    if (num % i === 0) {
       return false;
     }
   }
