@@ -32,3 +32,15 @@ Born in 1993. Had some practice in HTML at under-graduate years in school. After
 * [JavaScript/Front-end. Stage 1 (in progress)](https://rs.school/js/);
 * [Git basics](https://practicum.yandex.ru/git-basics/);
 * [Introduction to programming](https://ru.hexlet.io/courses/introduction_to_programming).
+
+### Example of code
+```JS
+function isPrime(num) {
+  for(let i = 2, s = Math.sqrt(num); i <= s; i++) {
+    if(num % i === 0) {
+      return false;
+    }
+  }
+  return num > 1;
+}
+```
