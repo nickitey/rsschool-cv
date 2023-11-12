@@ -1,3 +1,4 @@
+![photo](images/031.jpg)
 # Nikita Savin
 ## Junior frontend developer  
 ----
